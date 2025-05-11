@@ -1,4 +1,4 @@
-# 🛒 E-commerce App with Stripe Checkout
+# 🛒 E-commerce App with NextJS 14 Server Action + Prisma + Stripe Checkout
 
 ![Demo Screenshot](https://ik.imagekit.io/qthwngg/Capture2.PNG?updatedAt=1746965922176)
 ![Demo Screenshot](https://ik.imagekit.io/qthwngg/Capture.PNG?updatedAt=1746965494667)
