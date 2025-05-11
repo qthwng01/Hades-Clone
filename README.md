@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 E-commerce App with Stripe Checkout
 
-## Getting Started
+![Demo Screenshot](https://ik.imagekit.io/qthwngg/Capture2.PNG?updatedAt=1746965922176)
+![Demo Screenshot](https://ik.imagekit.io/qthwngg/Capture.PNG?updatedAt=1746965494667)
 
-First, run the development server:
+Website Fashion Ecommerce đơn giản được xây dựng bằng **Next.js 14 App Router**, tận dụng chức năng **Server Action** và **thanh toán bằng Stripe**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tính năng
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🔍 Xem danh sách và chi tiết sản phẩm
+- 🛒 Thêm sản phẩm vào giỏ hàng
+- 💳 Thanh toán đơn hàng bằng Stripe Checkout
+- 📦 Tự động tạo đơn hàng sau khi thanh toán
+- 🧠 Sử dụng **Server Actions** của Next.js 14 để xử lý logic phía server
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧰 Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js 14+ (App Router)](https://nextjs.org/docs/app)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Prisma ORM](https://www.prisma.io/)
+- [Stripe](https://stripe.com/)
+- [React](https://reactjs.org/)
+- PostgreSQL
