@@ -9,7 +9,7 @@ export async function POST(req: NextRequest) {
   if (!signature) return NextResponse.json({ status: 'error', error: 'Missing signature' })
 
   try {
-    const event = stripe.webhooks.constructEvent(payload, signature, 'whsec_aUgGkoMWtfADxzbAVhxkg0GISFec6108')
+    const event = stripe.webhooks.constructEvent(payload, signature, process.env.STRIPE_WEBHOOK_SECRET!)
     if (event.type === 'checkout.session.completed') {
       const session = event.data.object as any
       const products = await stripe.checkout.sessions.listLineItems(session.id)
