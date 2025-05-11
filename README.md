@@ -12,6 +12,7 @@ Website Fashion Ecommerce đơn giản được xây dựng bằng **Next.js 14 
 - 💳 Thanh toán đơn hàng bằng Stripe Checkout
 - 📦 Tự động tạo đơn hàng sau khi thanh toán
 - 🧠 Sử dụng **Server Actions** của Next.js 14 để xử lý logic phía server
+- ✍️ Tối ưu SEO
 
 ## 🧰 Tech Stack
 
