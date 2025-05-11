@@ -13,7 +13,7 @@ Website Fashion Ecommerce đơn giản được xây dựng bằng **Next.js 14 
 - 📦 Tự động tạo đơn hàng sau khi thanh toán
 - 🧠 Sử dụng **Server Actions** của Next.js 14 để xử lý logic phía server
 - ✍️ Tối ưu SEO
-- Repsonsive: Mobile, Desktop (chưa Tablet.)
+- Responsive: Mobile, Desktop (chưa Tablet.)
 
 ## 🧰 Tech Stack
 
