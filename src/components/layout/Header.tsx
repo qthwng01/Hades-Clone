@@ -28,7 +28,7 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 z-10 w-full max-w-screen-2xl h-auto md:h-auto ${
+      className={`fixed top-0 left-0 z-10 w-full max-w-screen-2xl lg:max-w-full h-auto md:h-auto ${
         scrollY ? 'bg-white' : 'bg-inherit'
       }`}
     >
