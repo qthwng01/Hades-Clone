@@ -20,4 +20,5 @@ Website Fashion Ecommerce đơn giản được xây dựng bằng **Next.js 14 
 - [Prisma ORM](https://www.prisma.io/)
 - [Stripe](https://stripe.com/)
 - [React](https://reactjs.org/)
+- Typescript
 - PostgreSQL
