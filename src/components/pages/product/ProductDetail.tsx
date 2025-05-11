@@ -107,7 +107,7 @@ const ProductDetail: React.FC<IProps> = ({ product }) => {
 
   return (
     <main className="w-full max-w-[1024px] mx-auto -mt-20 md:mt-20 py-20">
-      <div className="flex flex-col justify-center">
+      <div className="flex flex-col justify-center md:flex-row">
         {/* left */}
         <div className="w-full md:w-1/2">
           <div className="flex flex-wrap flex-col-reverse md:flex-row">
