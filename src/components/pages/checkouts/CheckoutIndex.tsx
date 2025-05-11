@@ -181,7 +181,7 @@ const CheckoutIndex = () => {
         </div>
       </header>
       {/* Form */}
-      <div className="flex flex-wrap max-w-full md:max-w-[1180px] mx-auto px-8 h-auto flex-col-reverse">
+      <div className="flex flex-wrap max-w-full md:max-w-[1180px] mx-auto px-8 h-auto flex-col-reverse md:flex-row">
         <Form onSubmit={handleOnSubmit} className="basis-full max-w-full md:basis-1/2 md:max-w-[50vw] h-full bg-white py-6 pr-4">
           <Select
             isRequired
